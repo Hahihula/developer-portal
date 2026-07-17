@@ -1,6 +1,7 @@
 ---
 title: "Announcing ESP-IDF v6.0"
 date: 2026-03-20
+lastmod: 2026-07-17
 showAuthor: false
 authors:
   - marius-vikhammer
@@ -101,7 +102,7 @@ For a full walkthrough including examples and migration tips, see the Developer 
 
 ESP-IDF 6.0 ships with a built-in **MCP (Model Context Protocol) server**, enabling AI assistants to interact directly with your ESP-IDF project through a standardized protocol. The server exposes tools for the most common development operations: building, flashing, setting the target, and cleaning, as well as resources to query the current project configuration, build status, and connected devices.
 
-The recommended way to launch the server is via `eim run`, which uses the [ESP-IDF Installation Manager (EIM)](https://github.com/espressif/idf-im-cli) to spawn a new process with the ESP-IDF environment already set up:
+The recommended way to launch the server is via `eim run`, which uses the [ESP-IDF Installation Manager (EIM)](https://github.com/espressif/idf-im-ui) to spawn a new process with the ESP-IDF environment already set up:
 
 ```bash
 eim run "idf.py mcp-server"
